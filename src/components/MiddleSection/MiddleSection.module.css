@@ -1,0 +1,36 @@
+.middlesect {
+    background-image: var(--navbar-background);
+    object-fit: cover;
+}
+
+.contentMiddle {
+    max-height: 400px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.h2 {
+    color: white;
+    font-size: 34px;
+}
+
+.contentText {
+    max-width: 540px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 60px;
+}
+
+.imgMiddle {
+    max-height: 480px;
+    max-width: 480px;
+    position: relative;
+    bottom: 100px;
+}
+
+.p1 {
+    font-weight: 200;
+    font-size: var(--nav-links-font-size-height);
+    line-height: 24px;
+}

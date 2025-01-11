@@ -1,0 +1,21 @@
+.img {
+    max-height: 200px;
+    max-width: 169px;
+}
+.p1 {
+    font-weight: 200;
+    font-size: var(--nav-links-font-size-height);
+    line-height: 24px;
+}
+
+.p2 {
+    font-size: var(--nav-links-font-size-height);
+    font-weight: 500;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px 0 60px 0;
+}

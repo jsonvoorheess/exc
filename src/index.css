@@ -3,4 +3,16 @@
     margin: 0;
     padding: 0;
     font-family: "Montserrat";
+    box-sizing: border-box;
+}
+
+
+a, p, span, h1 {
+    color: white;
+}
+:root {
+    --navbar-background: linear-gradient(180deg, #39b7c8 0%, #131b5e 100%);
+    --nav-links-font-size-height: 16px;
+    --top-level-background: linear-gradient(180deg,#37b0c3 0%,#162566 100%);
+    --info-section-background: linear-gradient(rgb(55, 176, 195) 0%, rgb(22, 37, 102) 100%);
 }

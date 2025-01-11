@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+.gameSection {
+    background-image: url("../../assets/nj-1.png");
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-position: center center;
+    background-size: cover;
+    align-self: auto;
+    background-repeat: no-repeat;
+    filter: contrast(120%);
+}
+
+.gameContent {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    align-items: center;
+    line-height: 24px;
+
+}
+
+.p {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: normal;
+    line-height: 20px;
+    color: white;
+    font-family: Source Sans Pro;
+}
+
+.h2 {
+    margin-top: 160px;
+    color: rgb(255, 255, 255);
+}
+
+.link {
+    margin-bottom: 160px;
+    display: flex;
+    width: 400px;
+    background-image: var(--navbar-background);
+    justify-content: center;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 10px 0 10px 0;
+}

@@ -1,0 +1,42 @@
+.warnComp {
+    background-image: url("../../assets/sad.png");
+    /*align-self: auto;*/
+    position: relative;
+    bottom: 51px;
+    background-size: cover;
+}
+
+.info {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.h2 {
+    color: white;
+    font-size: 32px;
+}
+
+.p {
+    font-size: var(--nav-links-font-size-height);
+    line-height: 24px;
+}
+
+.h3 {
+    font-size: var(--nav-links-font-size-height);
+    line-height: 24px;
+    color: white;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-bottom: 200px;
+}
+
+.img {
+    max-width: 300px;
+    max-height: 300px;
+}
