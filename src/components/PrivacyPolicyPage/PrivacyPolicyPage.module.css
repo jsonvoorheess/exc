@@ -1,0 +1,16 @@
+.provicyPolicePage {
+    background-color: #050e37;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.h1 {
+    font-size: 33px;
+    font-weight: 700;
+}
+
+.textBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

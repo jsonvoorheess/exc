@@ -21,12 +21,12 @@ export const TopWarningMessageComponent = () => {
                 aproveite a jogabilidade sem comprometer seu bem-estar físico e psicológico.
             </p>
             <p className={styles.p2}>
-                18+ www.gamblingtherapy.org – Gambling Therapy é um serviço de apoio on-line mundial que
+                18+ <a href="https://www.gamblingtherapy.org/" target="_blank" >www.gamblingtherapy.org </a> – Gambling Therapy é um serviço de apoio on-line mundial que
                 oferece
                 aconselhamento a pessoas que foram afetadas negativamente pelo jogo
             </p>
             <p className={styles.p2}>
-                www.gamblersanonymous.org/ga – Jogadores Anônimos oferece aconselhamento por telefone ou
+                <a href="https://www.gamblersanonymous.org/ga" target="_blank" >www.gamblersanonymous.org/ga</a>  – Jogadores Anônimos oferece aconselhamento por telefone ou
                 pessoalmente a qualquer pessoa afetada pelo jogo.
             </p>
         </div>

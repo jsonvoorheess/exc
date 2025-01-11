@@ -4,6 +4,7 @@ import logo from "../../assets/photo.jpg"
 import {Link} from "react-router";
 import styles from './Navbar.module.css'
 import {FC} from "react";
+import classNames from "classnames";
 
 
 interface NavbarProps {
@@ -11,6 +12,7 @@ interface NavbarProps {
 }
 
 export const Navbar:FC<NavbarProps> = ({footer = false}) => {
+
     return (
         !footer ?
             <header className={styles.Header}>
@@ -19,8 +21,10 @@ export const Navbar:FC<NavbarProps> = ({footer = false}) => {
                     <div className={styles.header}>
                         <img className={styles.img} src={logo} alt="Логотип сайта"/>
                         <nav className={styles.links}>
-                            <Link to="/">PAGINA INICIAL</Link>
-                            <Link to="/as">POLITICA DE PRIVACIDADE</Link>
+                            <Link className={classNames({
+                                [styles.offButton]: !document.cookie.includes("pum-79=true")
+                            })} to="/">PAGINA INICIAL</Link>
+                            <Link to="/info">POLITICA DE PRIVACIDADE</Link>
                         </nav>
                         <img className={styles.img} src={image} alt="Ограничение"/>
                     </div>
@@ -47,8 +51,10 @@ export const Navbar:FC<NavbarProps> = ({footer = false}) => {
                                 <img className={styles.img} src={logo} alt="Логотип сайта"/>
 
                                 <nav className={styles.links}>
-                                    <Link to="/">PAGINA INICIAL</Link>
-                                    <Link to="/as">POLITICA DE PRIVACIDADE</Link>
+                                    <Link className={classNames({
+                                        [styles.offButton]: !document.cookie.includes("pum-79=true")
+                                    })} to="/">PAGINA INICIAL</Link>
+                                    <Link to="/info">POLITICA DE PRIVACIDADE</Link>
                                 </nav>
 
                                 <img className={styles.img} src={image} alt="Ограничение"/>

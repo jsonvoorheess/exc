@@ -10,7 +10,10 @@ import {GamePreviewComponent} from "../GamePreviewComponent/GamePreviewComponent
 import {InfoSection} from "../InfoSection/InfoSection.tsx";
 import {BottomWarningMessageComponent} from "../BottomWarningMessageComponent/BottomWarningMessageComponent.tsx";
 
+
 export const ContentPage = () => {
+
+
     return (
         <>
             <section className={styles.mainsection}>
@@ -24,6 +27,7 @@ export const ContentPage = () => {
             <GamePreviewComponent />
             <InfoSection />
             <BottomWarningMessageComponent />
+
         </>
     )
         ;

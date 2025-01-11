@@ -12,7 +12,7 @@ export const GamePreviewComponent = () => {
                         Entre na equipe de pescadores experientes e vá caçar peixes grandes. O jogo impressiona com
                         belos gráficos 3D, rodadas de bônus emocionantes e inúmeras opções de jogo totalmente gratuitas.
                     </span>
-                    <Link to="/" className={styles.link} >
+                    <Link to="/game" className={styles.link} >
                         Jogo Grátis
                     </Link>
                 </div>

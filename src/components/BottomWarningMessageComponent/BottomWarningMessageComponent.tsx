@@ -20,10 +20,10 @@ export const BottomWarningMessageComponent = () => {
                             acreditamos fortemente que os jogos só devem ser acedidos por adultos responsáveis ​​e
                             conscientes. Acreditamos firmemente que o jogo responsável não consiste apenas em seguir as
                             regras, mas também em mostrar cuidado e atenção aos nossos clientes.</p>
-                        <h3 className={styles.h3}>18+ www.gamblingtherapy.org – Gambling Therapy é um serviço de apoio
+                        <h3  className={styles.h3}>18+ <a href="https://www.gamblingtherapy.org/" target="_blank" >www.gamblingtherapy.org </a> – Gambling Therapy é um serviço de apoio
                             on-line mundial que oferece
                             aconselhamento a pessoas que foram afetadas negativamente pelo jogo.</h3>
-                        <h3 className={styles.h3}>www.gamblersanonymous.org/ga – Jogadores Anônimos oferece
+                        <h3  className={styles.h3}><a href="https://www.gamblersanonymous.org/ga" target="_blank" >www.gamblersanonymous.org/ga</a>  – Jogadores Anônimos oferece
                             aconselhamento por telefone ou
                             pessoalmente a qualquer pessoa afetada pelo jogo.</h3>
                     </div>

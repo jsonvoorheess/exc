@@ -1,0 +1,21 @@
+.gamewrapper {
+    padding-top: 200px;
+    object-fit: cover;
+    padding-bottom: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game {
+    background-color: #131b5e;
+}
+
+.iframe {
+    border: none;
+    max-width: 100%;
+    width: 100%;
+    margin: 0;
+    border-radius: 10px;
+    height: 690px;
+}

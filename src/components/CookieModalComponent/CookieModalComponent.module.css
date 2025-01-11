@@ -1,0 +1,109 @@
+.h3 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.cookieModal {
+    padding-top: 20px;
+}
+
+.p {
+    color: black;
+}
+
+.cont {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: end;
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 5px 10px;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn1 {
+    background-color: deepskyblue;
+}
+
+.btn2 {
+    background-color: darkgreen;
+}
+
+.btn3 {
+    background-color: red;
+}
+
+.btns {
+    display: flex;
+    gap: 20px;
+}
+
+.paragraph1 {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.settingsP {
+    margin-bottom: 15px;
+    color: black;
+}
+
+.settingsContent {
+    margin-top: 20px;
+}
+
+.switch {
+    display: flex;
+    align-self: flex-end;
+    background-color: dimgrey;
+}
+
+.switch label {
+    display: flex;
+    position: relative;
+    cursor: pointer;
+    line-height: 1;
+    vertical-align: middle;
+    background-color: dimgrey;
+}
+
+input {
+    display: none;
+}
+
+label:has(input:checked) {
+    background-color: #39b7c8;
+}
+
+.span {
+    padding: 5px 10px;
+}
+
+.saveButton {
+
+}
+
+.bottomH3 {
+    margin-top: 20px;
+}
+
+.saveSection {
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.sect {
+    margin-top: 20px;
+    border-top: 1px solid grey;
+}

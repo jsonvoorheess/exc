@@ -11,10 +11,15 @@
     align-items: center;
 }
 
+.offButton {
+    pointer-events: none;
+}
+
 
 .img {
-    max-width: 100px;
-    max-height: 100px;
+    max-width: 110px;
+    max-height: 85px;
+    object-fit: cover;
     border-radius: 50%;
 }
 
