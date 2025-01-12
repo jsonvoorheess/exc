@@ -35,8 +35,8 @@ export const App = () => {
 
 
             </Routes>
-            {(!document.cookie.includes("si_cookie_banner_accepted=1") && !isCookie) && <Modal isWarningModal={false}> <CookieModalComponent/> </Modal>}
-            {!document.cookie.includes("pum-79") && !isAdult && <Modal isWarningModal={true}> <WarningModalComponent/> </Modal>}
+            {(!document.cookie.includes("si_cookie_banner_accepted=1") && !isCookie) && <Modal isWarningModal={false} > <CookieModalComponent/> </Modal>}
+            {!document.cookie.includes("pum-79") && !isAdult && <Modal opened={true} isWarningModal={true}> <WarningModalComponent/> </Modal>}
         </main>
 
         <Navbar footer={true} />

@@ -5,18 +5,22 @@ import {createPortal} from "react-dom";
 
 interface ModalProps {
     children: ReactNode,
-    isWarningModal: boolean
+    isWarningModal: boolean,
+    opened?:boolean
 }
 
 
-export const Modal:FC<ModalProps> = ({ children, isWarningModal }) => {
+export const Modal:FC<ModalProps> = ({ children, isWarningModal, opened = false }) => {
     return (
-        createPortal(<div className={classNames(styles.modal)}>
+        createPortal(<div className={classNames(styles.modal, {
+            [styles.opened]: opened
+        })}>
             <div className={classNames({
                 [styles.overlayWarning]: isWarningModal,
                 [styles.overlayCookie]: !isWarningModal
             })}>
                 <div className={classNames({
+                    [styles.contentOpened]: opened,
                     [styles.contentWarning]: isWarningModal,
                     [styles.contentCookie]: !isWarningModal
                 })}>
