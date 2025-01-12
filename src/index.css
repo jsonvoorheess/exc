@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 
 a, p, span, h1 {
     color: white;
@@ -15,4 +19,5 @@ a, p, span, h1 {
     --nav-links-font-size-height: 16px;
     --top-level-background: linear-gradient(180deg,#37b0c3 0%,#162566 100%);
     --info-section-background: linear-gradient(rgb(55, 176, 195) 0%, rgb(22, 37, 102) 100%);
+    --header-height: 125px
 }
