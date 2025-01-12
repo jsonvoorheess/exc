@@ -1,5 +1,5 @@
 import './App.css'
-import { Route, Routes, useNavigate} from "react-router";
+import { Route, Routes} from "react-router";
 import {Navbar} from "./components/Navbar/Navbar.tsx";
 import {ContentPage} from "./components/ContentPage/ContentPage.tsx";
 import {Modal} from "./components/Modal/Modal.tsx";
