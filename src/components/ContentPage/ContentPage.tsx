@@ -9,9 +9,18 @@ import {TopWarningMessageComponent} from "../TopWarningMessageComponent/TopWarni
 import {GamePreviewComponent} from "../GamePreviewComponent/GamePreviewComponent.tsx";
 import {InfoSection} from "../InfoSection/InfoSection.tsx";
 import {BottomWarningMessageComponent} from "../BottomWarningMessageComponent/BottomWarningMessageComponent.tsx";
+import {useNavigate} from "react-router";
+import {useEffect} from "react";
 
 
 export const ContentPage = () => {
+    const navigate = useNavigate()
+
+    useEffect(() => {
+        if (document.cookie.includes("pum-79=false")) {
+            navigate("/info")
+        }
+    }, [])
 
 
     return (
