@@ -49,8 +49,7 @@ export const CookieModalComponent = () => {
                             Detailed information
                             about how we use your personal data and your rights can be found in our Privacy Policy.</p>
                         <div className={styles.btns}>
-                            <button onClick={getMoreSettings} className={classNames(styles.btn1, styles.btn)}>Settings
-                            </button>
+                            <button onClick={getMoreSettings} className={classNames(styles.btn1, styles.btn)}>Settings</button>
                             <button onClick={saveCookieSettings} className={classNames(styles.btn2, styles.btn)}>Accept</button>
                             <button onClick={onCloseModalCookie} className={classNames(styles.btn3, styles.btn)}>Decline</button>
                         </div>

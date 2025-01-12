@@ -23,12 +23,12 @@ export const WarningModalComponent = () => {
     }
     return (
         <div className={styles.content} >
-            <h1 className={styles.h1} >VOCÊ TEM 18 ANOS OU MAIS?</h1>
-            <img src={warningIcon} className={styles.img} alt="иконка 18+"/>
-            <div className={styles.buttons} >
-                <button onClick={setCookiesAgeTrue} className={styles.btn} >Sim, tenho 18 anos ou mais</button>
-                <button onClick={setCookiesAgeFalse} className={styles.btn} >Não, tenho menos de 18 anos</button>
-            </div>
+                <h1 className={styles.h1}>VOCÊ TEM 18 ANOS OU MAIS?</h1>
+                <img src={warningIcon} className={styles.img} alt="иконка 18+"/>
+                <div className={styles.buttons}>
+                    <button onClick={setCookiesAgeTrue} className={styles.btn}>Sim, tenho 18 anos ou mais</button>
+                    <button onClick={setCookiesAgeFalse} className={styles.btn}>Não, tenho menos de 18 anos</button>
+                </div>
         </div>
     );
 };

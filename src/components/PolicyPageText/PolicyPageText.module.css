@@ -17,3 +17,9 @@
     line-height: 24px;
     font-weight: normal;
 }
+
+@media (max-width: 767px) {
+    .h2 {
+        font-size: 18px;
+    }
+}

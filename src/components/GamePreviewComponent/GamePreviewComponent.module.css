@@ -36,7 +36,8 @@
 .link {
     margin-bottom: 160px;
     display: flex;
-    width: 400px;
+    max-width: 400px;
+    width: 100%;
     background-image: var(--navbar-background);
     justify-content: center;
     text-decoration: none;

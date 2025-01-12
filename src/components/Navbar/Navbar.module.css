@@ -144,3 +144,10 @@
     display: flex;
     justify-content: center;
 }
+
+@media (max-width: 767px) {
+    .footerText {
+        line-height: 16px;
+        padding-top: 20px;
+    }
+}

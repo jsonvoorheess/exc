@@ -9,3 +9,14 @@
 .backgr {
     background-color: #050e37;
 }
+
+@media (max-width: 767px) {
+    .s {
+        height: 50px;
+    }
+
+    .m {
+        height: 100px;
+    }
+
+}

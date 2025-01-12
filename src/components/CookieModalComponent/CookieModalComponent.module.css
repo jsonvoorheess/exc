@@ -6,6 +6,7 @@
 
 .cookieModal {
     padding-top: 20px;
+
 }
 
 .p {
@@ -106,4 +107,29 @@ label:has(input:checked) {
 .sect {
     margin-top: 20px;
     border-top: 1px solid grey;
+}
+
+@media (max-width: 767px) {
+    .settingsP {
+        font-size: 14px;
+    }
+    .cookieModal {
+        max-height: 100vh;
+        overflow-y: scroll;
+    }
+
+}
+
+@media (max-width: 386px) {
+
+    .btns {
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    .cont {
+        align-items: center;
+    }
+
 }
