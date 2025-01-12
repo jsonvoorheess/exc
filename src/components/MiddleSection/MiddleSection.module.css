@@ -34,3 +34,26 @@
     font-size: var(--nav-links-font-size-height);
     line-height: 24px;
 }
+
+@media (max-width: 1024px) {
+    .h2 {
+        font-size: 24px;
+    }
+
+    .contentText {
+        padding-top: 5px;
+    }
+
+    .imgMiddle {
+        max-height: 280px;
+        max-width: 280px;
+        position: relative;
+        bottom: 50px;
+    }
+
+    .contentMiddle {
+        max-height: 500px;
+        align-items: center;
+    }
+
+}
