@@ -57,3 +57,17 @@
     }
 
 }
+
+@media (max-width: 560px) {
+    .h2 {
+        font-size: 16px;
+    }
+
+    .p1 {
+        line-height: 16px;
+        font-size: 14px;
+    }
+
+
+
+}

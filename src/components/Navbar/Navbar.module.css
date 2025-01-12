@@ -16,8 +16,8 @@
     color: white;
     padding: 14px 16px;
     background-color: inherit;
-    font-family: inherit; /* Important for vertical align on mobile phones */
-    margin: 0; /* Important for vertical align on mobile phones */
+    font-family: inherit;
+    margin: 0;
     position: relative;
 }
 
@@ -130,7 +130,6 @@
     font-weight: 400;
     line-height: 24px;
     font-size: 16px;
-    max-height: 96px;
     -webkit-font-smoothing: antialiased;
 }
 
