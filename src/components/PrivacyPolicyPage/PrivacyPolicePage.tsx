@@ -4,7 +4,7 @@ import {PolicyPageText} from "../PolicyPageText/PolicyPageText.tsx";
 import {BottomWarningMessageComponent} from "../BottomWarningMessageComponent/BottomWarningMessageComponent.tsx";
 
 
-export const PrivacyPolicePage = () => {
+const PrivacyPolicePage = () => {
     return (
         <>
             <section className={styles.provicyPolicePage}>
@@ -49,3 +49,5 @@ export const PrivacyPolicePage = () => {
 
     );
 };
+
+export default PrivacyPolicePage

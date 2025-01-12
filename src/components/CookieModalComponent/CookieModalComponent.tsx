@@ -1,7 +1,7 @@
 import {Container} from "../Container/Container.tsx";
 import styles from './CookieModalComponent.module.css'
 import classNames from "classnames";
-import {useContext, useState} from "react";
+import {useCallback, useContext, useState} from "react";
 import {useNavigate} from "react-router";
 import {Context} from "../../utils/Context/Context.tsx";
 
@@ -12,20 +12,20 @@ export const CookieModalComponent = () => {
     const [input1Value, setInput1Value] = useState(false)
     const [input2Value, setInput2Value] = useState(false)
 
-    const getMoreSettings = () => {
+    const getMoreSettings = useCallback(() => {
         setSettings(true)
-    }
+    }, [])
 
-    const saveCookieSettings = () => {
+    const saveCookieSettings = useCallback(() => {
         document.cookie = "si_cookie_banner_accepted=1"
         navigate(0)
-    }
+    }, [])
 
-    const onCloseModalCookie = () => {
+    const onCloseModalCookie = useCallback(() => {
         if (setIsCookie) {
             setIsCookie(true)
         }
-    }
+    }, [setIsCookie])
 
 
     return (

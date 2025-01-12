@@ -2,13 +2,13 @@ import './App.css'
 import {Route, Routes} from "react-router";
 import {Navbar} from "./components/Navbar/Navbar.tsx";
 import {ContentPage} from "./components/ContentPage/ContentPage.tsx";
-import {PrivacyPolicePage} from "./components/PrivacyPolicyPage/PrivacyPolicePage.tsx";
 import {Modal} from "./components/Modal/Modal.tsx";
 import {CookieModalComponent} from "./components/CookieModalComponent/CookieModalComponent.tsx";
 import {WarningModalComponent} from "./components/WarningModalComponent/WarningModalComponent.tsx";
 import {useContext} from "react";
 import {Context} from "./utils/Context/Context.tsx";
 import {GamePageAsync} from "./components/GamePage/GamePageAsync.tsx";
+import {PrivacyPolicyPageAsync} from "./components/PrivacyPolicyPage/PrivacyPolicyPageAsync.tsx";
 
 export const App = () => {
     const { isAdult, isCookie } = useContext(Context)
@@ -26,7 +26,7 @@ export const App = () => {
                 } />
 
                 <Route path="/info" element={
-                    <PrivacyPolicePage />
+                    <PrivacyPolicyPageAsync />
                 } />
 
                 <Route path="/game" element={

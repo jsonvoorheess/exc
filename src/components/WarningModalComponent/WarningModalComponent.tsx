@@ -1,7 +1,7 @@
 import styles from "./WarningModalComponent.module.css"
 import warningIcon from "../../assets/27.svg"
 import {useNavigate} from "react-router";
-import {useContext} from "react";
+import {useCallback, useContext} from "react";
 import {Context} from "../../utils/Context/Context.tsx";
 
 
@@ -9,18 +9,19 @@ export const WarningModalComponent = () => {
     const navigate = useNavigate()
     const { setIsAdult } = useContext(Context)
 
-    const setCookiesAgeTrue = () => {
+    const setCookiesAgeTrue = useCallback(() => {
         document.cookie = 'pum-79=true'
         navigate(0)
-    }
+    }, [navigate])
 
-    const setCookiesAgeFalse = () => {
+    const setCookiesAgeFalse = useCallback(() => {
         document.cookie = 'pum-79=false'
         navigate("/info")
         if (setIsAdult) {
             setIsAdult(true)
         }
-    }
+    }, [navigate, setIsAdult])
+    
     return (
         <div className={styles.content} >
                 <h1 className={styles.h1}>VOCÊ TEM 18 ANOS OU MAIS?</h1>
